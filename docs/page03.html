@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+        .bg-container {
+            background-image: url("https://res.cloudinary.com/djjmazu56/image/upload/v1677580055/Screenshot_2023-02-28_155435_qr58o7.png");
+            width: 100vw;
+            background-size: cover;
+            padding-top: 30px;
+            font-family: Bree Serif;
+            color: white;
+        }
+
+        .main-heading {
+            text-align: center;
+            font-size: 40px;
+            color: black;
+        }
+
+        .paragraph{
+            text-align: center;
+            font-size: 40px;
+            color: black;
+        }
+    </style>
+</head>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column justify-content-center pt-5">
+                        <h1 class="main-heading">GPA PREDICTOR</h1>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div>
+                                <p class="paragraph">The predicted GPA is:</p>
+                                <p class="paragraph"> {{ gpa4 }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
